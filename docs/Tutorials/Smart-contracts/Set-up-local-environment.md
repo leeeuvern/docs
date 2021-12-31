@@ -36,6 +36,8 @@ satisfy adjust timber high purchase tuition stool faith fine install that you un
 
 While WASM smart contracts can theoretically be written in any programming language, we currently only recommend using Rust as it is the only language for which mature libraries and tooling exist for CosmWasm. For this tutorial, you'll need to also install the latest version of Rust by following the instructions [here](https://www.rust-lang.org/tools/install).
 
+For Windows users, it is highly recommended to use WSL (Windows Subsystem for Linux) for your development enviroment. More information on that at https://docs.microsoft.com/en-us/windows/wsl/about.
+
 Once you'll installed Rust and its toolchain (cargo et al.), you'll need to add the `wasm32-unknown-unknown` compilation target.
 
 ```sh
